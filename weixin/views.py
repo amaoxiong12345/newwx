@@ -49,5 +49,4 @@ class WeiXinMsg(APIView):
         print('^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^')
         print(ret)
         print(sEchoStr)
-        print('git_test')
         return Response(sEchoStr)
