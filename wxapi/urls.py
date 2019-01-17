@@ -20,5 +20,5 @@ from weixin.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^weixin1/',WeiXinMsg.as_view())
+    url(r'^weixin1/',WeiXinMsg.as_view()),
 ]
